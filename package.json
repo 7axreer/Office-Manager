@@ -1,0 +1,13 @@
+{
+  "name": "office-manager",
+  "version": "1.0.0",
+  "description": "Ofis xarajatlari va navbatchilik uchun dashboard + Telegram bot",
+  "private": true,
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build:demo": "node scripts/build-demo.js"
+  },
+  "engines": { "node": ">=18.17" },
+  "license": "MIT"
+}
